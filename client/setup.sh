@@ -11,8 +11,8 @@ mkdir -p server bungee client
 # Download Eaglercraft 1.12.2 Server/Bungee components
 # Note: Replace these URLs with your preferred repository sources if you have specific forks
 echo "Downloading Server and Bungee components..."
-curl -L -o bungee/bungee.jar https://github.com
-curl -L -o server/server.jar https://github.com
+curl -L -o bungee/bungee.jar https://github.com/QuizzityMC/EaglerServer-1.12/raw/main/bungee/bungee.jar
+curl -L -o server/server.jar https://github.com/QuizzityMC/EaglerServer-1.12/raw/main/server/server.jar
 
 # Accept EULA automatically
 echo "eula=true" > server/eula.txt
